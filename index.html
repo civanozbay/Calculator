@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div id="calculator">
+        <div id="result">
+            <div id="res">
+
+            </div>
+        </div>
+        <div id="numbers-operators">
+            <div id="numbers">
+
+                <button id="number" onclick="getNumber(this)" value="1">1</button>
+                <button id="number" onclick="getNumber(this)" value="2">2</button>
+                <button id="number" onclick="getNumber(this)" value="3">3</button>
+                <button id="number" onclick="getNumber(this)" value="4">4</button>
+                <button id="number" onclick="getNumber(this)" value="5">5</button>
+                <button id="number" onclick="getNumber(this)" value="6">6</button>
+                <button id="number" onclick="getNumber(this)" value="7">7</button>
+                <button id="number" onclick="getNumber(this)" value="8">8</button>
+                <button id="number" onclick="getNumber(this)" value="9">9</button>
+                <button id="number" onclick="calculate()" >=</button>
+                <button id="number" onclick="getNumber(this)" value="0">0</button>
+                <button id="number" onclick="deleteNumber()" >C</button>
+                
+            </div>
+                <div id="operators">
+
+                <button id="operator" onclick="getOperator(this)" value="+">+</button>
+                <button id="operator" onclick="getOperator(this)" value="-">-</button>
+                <button id="operator" onclick="getOperator(this)" value="*">*</button>
+                <button id="operator" onclick="getOperator(this)" value="/">/</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
